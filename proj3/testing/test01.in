@@ -1,0 +1,24 @@
+> init
+<<<
+E .gitlet
++ wug.txt wug.txt
++ thing.txt thing.txt
++ delete.txt delete.txt
+> add wug.txt
+<<<
+> status
+=== Branches ===
+*master
+
+=== Staged Files ===
+wug.txt
+
+=== Removed Files ===
+
+=== Modfications Not Staged For Commit ===
+
+=== Untracked Files ===
+delete.txt
+thing.txt
+
+<<<

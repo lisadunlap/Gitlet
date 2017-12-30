@@ -1,0 +1,24 @@
+# add and init test
+>
+Please enter a command.
+<<<
+> add thing.txt
+Not in an initialized Gitlet directory.
+<<<
+> init
+<<<
+> init
+A Gitlet version-control system already exists in the current directory.
+<<<
+> add jub.txt
+File does not exist.
+<<<
+> commit hey
+No changes added to the commit.
+<<<
++ wug.txt wug.txt
+> add wug.txt
+<<<
+> commit
+Please enter a commit message.
+<<<

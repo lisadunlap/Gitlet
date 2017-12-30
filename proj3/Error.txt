@@ -1,0 +1,9 @@
+My log command is not passing the autograder tests, even though it seems to be outputting the
+correct things.
+
+I prelude1.inc
+> init
+<<<
+> log
+${COMMIT_LOG}
+<<<*

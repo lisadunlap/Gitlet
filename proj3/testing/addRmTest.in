@@ -1,0 +1,18 @@
+# Status with a removal followed by an add that restores former
+# contents.  Should simply "unremove" the file without staging.
+I prelude1.inc
++ f.txt wug.txt
++ g.txt notwug.txt
+> add g.txt
+<<<
+> add f.txt
+<<<
+> commit "two files"
+<<<
+> rm f.txt
+<<<
+* f.txt
++ f.txt wug.txt
+> add f.txt
+<<<
+I blank-status.inc
